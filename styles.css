@@ -239,7 +239,7 @@ section p {
 /* Styles for the future-goals section */
 #future-goals {
   background-color: white;
-  padding: 50px 0;
+  padding: 40px 0;
 }
 
 .intro-container {
@@ -272,6 +272,10 @@ section p {
   margin-bottom: 40px;
 }
 
+.goals-row:nth-child(1) {
+  margin-bottom: 0;
+}
+
 .goal-column {
   flex: 0 1 calc(50% - 20px);
   text-align: center;
@@ -280,6 +284,7 @@ section p {
   flex-direction: column;
   align-items: center;
 }
+
 
 .goal-icon {
   max-width: 100px;
