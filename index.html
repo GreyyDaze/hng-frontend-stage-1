@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Goals</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="navbar-content">
+                <div class="logo-title">
+                    <img src="./images/logo.png" alt="Logo" class="logo">
+                    <h1 style="font-weight: 800; color: #6c9eff; ">Aminah</h1>
+                </div>
+                <nav>
+                    <div class="navbar-toggle" id="navbar-toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="navbar-menu" id="navbar-menu">
+                        <li class="nav-item"><a href="#about-me" class="navbar-link">About Me</a></li>
+                        <li class="nav-item"><a href="#time" class="navbar-link">Time Now</a></li>
+                        <li class="nav-item"><a href="#future-goals" class="navbar-link">Future Goals</a></li>
+                        <li class="nav-item"><a href="#resources" class="navbar-link">Resources</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="about-me" style="background-color: #f9f9ff;">
+        <div class="section-container">
+            <div class="intro">
+                <p class="intro-line">THIS IS ME</p>
+                <h1 class="name" data-testid="slackDisplayName">aminah rashid</h1>
+                <p class="intro-text">Full-stack maverick with a frontend heart. I craft pixel-perfect UIs and robust
+                    backends, turning coffee into code and ideas into seamless web experiences. MERN enthusiast on a
+                    mission to make the web beautiful and functional, one project at a time.</p>
+                <p class="contact-info">Wanna learn more about me, or collaborate on a project, or have a brilliant idea
+                    for a project? Email me at <span data-testid="slackEmail">aminahrashid.com</span></p>
+            </div>
+            <div class="profile-image">
+                <img src="./images/profile-pic.jpg" alt="Slack Profile Picture" data-testid="slackProfilePic">
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="time">
+        <div class="section-container">
+            <div class="time-container">
+                <div class="time-column">
+                    <p id="current-time" class="time-display" data-testid="currentTimeUTC"></p>
+                    <p class="time-title">UTC Time</p>
+                </div>
+                <div class="image-column">
+                    <img src="./images/processor.png" alt="Processor Image" class="time-image">
+                </div>
+                <div class="day-column">
+                    <p id="current-day" class="day-display" data-testid="currentDay"></p>
+                    <p class="day-title">Day</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="future-goals">
+        <div class="section-container">
+            <div class="intro-container">
+                <h2 class="section-heading">My Tech Goals</h2>
+                <p class="intro-paragraph">
+                    As a budding full-stack developer with a passion for creating seamless web experiences, I've set my
+                    sights on the following ambitious goals for the next two years:
+                </p>
+            </div>
+
+            <div class="goals-row">
+                <div class="goal-column">
+                    <img src="./images/ui-ux.png" alt="UI/UX Mastery Icon" class="goal-icon">
+                    <h3 class="goal-title">UI/UX Mastery</h3>
+                    <p class="goal-detail">Mastering user-centered design through challenges and UX principles, blending
+                        aesthetics and functionality.</p>
+                </div>
+                <div class="goal-column">
+                    <img src="./images/performance.png" alt="Performance Wizardry Icon" class="goal-icon">
+                    <h3 class="goal-title">Performance Wizardry</h3>
+                    <p class="goal-detail">Optimizing web performance to boost Lighthouse scores, making every project
+                        faster and more efficient.</p>
+                </div>
+            </div>
+            <div class="goals-row">
+                <div class="goal-column">
+                    <img src="./images/security.png" alt="Web Security Icon" class="goal-icon">
+                    <h3 class="goal-title">Fortifying Web Security</h3>
+                    <p class="goal-detail">Learning and implementing OWASP Top 10 security risks to integrate best
+                        practices in every project.</p>
+                </div>
+                <div class="goal-column">
+                    <img src="./images/freelance.png" alt="Freelance Skills Icon" class="goal-icon">
+                    <h3 class="goal-title">Freelance Skills</h3>
+                    <p class="goal-detail">Enhancing communication, project management, and negotiation skills for
+                        valuable client solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <section id="resources">
+        <div class="section-container">
+            <div class="intro-container">
+                <h2 class="section-heading">Essential Resources</h2>
+                <p class="intro-paragraph">Check out these links to grow in your career:</p>
+            </div>
+            <ul class="resources-list">
+                <li class="resource-item">
+                    <a href="https://hng.tech/learn" target="_blank" data-testid="hngLink" class="resource-link">HNG
+                        Tech Learn</a>
+                </li>
+                <li class="resource-item">
+                    <a href="https://keyword.dog" target="_blank" data-testid="keywordLink"
+                        class="resource-link">Keyword Dog</a>
+                </li>
+                <li class="resource-item">
+                    <a href="https://scrapeanyweb.site" target="_blank" data-testid="scrapeanywebLink"
+                        class="resource-link">Scrape Any Web</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h3 class="footer-heading">Copyrights</h3>
+                <p class="footer-copyright">© 2024 Aminah</p>
+            </div>
+            <div class="footer-right">
+                <h3 class="footer-heading">Follow Me</h3>
+                <div class="footer-icons">
+                    <a href="https://github.com/GreyyDaze" target="_blank" class="footer-icon-link">
+                        <img src="./images/github-icon.png" alt="GitHub" class="footer-icon">
+                    </a>
+                    <a href="http://www.linkedin.com/in/aminah-rashid-1a4318197" target="_blank"
+                        class="footer-icon-link">
+                        <img src="./images/linkedin-icon.png" alt="LinkedIn" class="footer-icon">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
